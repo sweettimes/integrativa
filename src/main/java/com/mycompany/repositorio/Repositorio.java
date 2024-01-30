@@ -11,8 +11,12 @@ package com.mycompany.repositorio;
 public class Repositorio {
 
     public static void main(String[] args) {
-        int x;
+        int x=10;
+        if (x>=30){
+        System.out.println("hola mundo con valor de: "+x);
+        }else{
+            System.out.println("Hello World! ordinario");
+        }
         //tacos actualizados 2
-        System.out.println("Hello World!");
     }
 }
